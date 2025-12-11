@@ -1,0 +1,16 @@
+{
+  "name": "socket-io-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --legacy-watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
